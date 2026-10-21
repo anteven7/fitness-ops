@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "replace-with-plan-id",
+  "title": "Replace with an individualized cycle title",
+  "parent_id": null,
+  "start_date": "YYYY-MM-DD",
+  "end_date": "YYYY-MM-DD",
+  "review_date": "YYYY-MM-DD",
+  "microcycle_end_date": "YYYY-MM-DD",
+  "goal": "Replace with objective and success metrics",
+  "rationale": "Replace with profile and evidence-based reasoning",
+  "blocks": [
+    {
+      "name": "Block 1",
+      "start_date": "YYYY-MM-DD",
+      "end_date": "YYYY-MM-DD",
+      "focus": "Specific objective and exit criteria"
+    }
+  ],
+  "sessions": [
+    {
+      "date": "YYYY-MM-DD",
+      "key": "session-a",
+      "title": "Session title; full prescription in body_md"
+    }
+  ],
+  "nutrition": {
+    "approach": "habits",
+    "kcal": null,
+    "protein_g": null,
+    "carbs_g": null,
+    "fat_g": null,
+    "energy_strategy": "unspecified"
+  },
+  "sources": [
+    "ACSM-2026",
+    "WHO-DIET",
+    "AASM-SLEEP",
+    "WHO-STEPS"
+  ],
+  "body_md": "Write the complete macrocycle, mesocycles, first microcycle, meals, groceries, progression, recovery, assumptions and review here.",
+  "coaching": {
+    "microcycle_start_date": "YYYY-MM-DD",
+    "success_criteria": "Define measurable goal-specific outcomes and the observation horizon",
+    "measurement_protocol": "Explain what, how, units, frequency and interpretation limits",
+    "recovery_plan": "Describe individualized recovery and conditioning",
+    "stop_rules": "State relevant stop/escalation conditions",
+    "review_triggers": "Explain when and why to revise",
+    "explanations": [
+      {
+        "id": "training-rationale",
+        "topic": "training",
+        "recommendation": "Describe the specific recommendation",
+        "why_for_user": "Explain fit to this actual profile",
+        "basis": "research",
+        "source_ids": [
+          "ACSM-2026"
+        ],
+        "uncertainty": "State uncertainty and applicability limits",
+        "reassess_when": "State the observation or date that would trigger review"
+      },
+      {
+        "id": "nutrition-rationale",
+        "topic": "nutrition",
+        "recommendation": "Describe the specific recommendation",
+        "why_for_user": "Explain fit to this actual profile",
+        "basis": "guideline",
+        "source_ids": [
+          "WHO-DIET"
+        ],
+        "uncertainty": "State uncertainty and applicability limits",
+        "reassess_when": "State the observation or date that would trigger review"
+      },
+      {
+        "id": "recovery-rationale",
+        "topic": "recovery",
+        "recommendation": "Describe the specific recommendation",
+        "why_for_user": "Explain fit to this actual profile",
+        "basis": "guideline",
+        "source_ids": [
+          "AASM-SLEEP"
+        ],
+        "uncertainty": "State uncertainty and applicability limits",
+        "reassess_when": "State the observation or date that would trigger review"
+      },
+      {
+        "id": "measurement-rationale",
+        "topic": "measurement",
+        "recommendation": "Describe the specific recommendation",
+        "why_for_user": "Explain fit to this actual profile",
+        "basis": "guideline",
+        "source_ids": [
+          "WHO-STEPS"
+        ],
+        "uncertainty": "State uncertainty and applicability limits",
+        "reassess_when": "State the observation or date that would trigger review"
+      }
+    ],
+    "training": [
+      {
+        "session_key": "session-a",
+        "duration_min": null,
+        "warmup": "Describe specific warm-up and ramp-up sets",
+        "shortened_option": "State the minimum useful session",
+        "exercises": [
+          {
+            "name": "Choose an exercise",
+            "sets": null,
+            "reps_min": null,
+            "reps_max": null,
+            "rir_min": null,
+            "rir_max": null,
+            "rest_seconds": null,
+            "load_guidance": "Explain how to select the initial load",
+            "technique": "Give appropriate cues and limitations of remote assessment",
+            "progression": "State a conditional progression rule",
+            "alternatives": [
+              "Choose a practical alternative"
+            ],
+            "explanation_ids": [
+              "training-rationale"
+            ]
+          }
+        ]
+      }
+    ],
+    "nutrition": {
+      "method_explanation": "Explain habits or target method, workings and assumptions",
+      "menu_md": "Write the requested menu with portions and food states",
+      "groceries_md": "Consolidate quantities for the actual menu",
+      "substitutions_md": "State practical swaps and portion caveats",
+      "micronutrients_md": "Review dietary variety and plausible gaps without diagnosing deficiency",
+      "reviewed_allergies": null,
+      "reviewed_exclusions": null,
+      "allergy_check_notes": "Describe actual ingredient and label review",
+      "explanation_ids": [
+        "nutrition-rationale"
+      ],
+      "menu_days": []
+    }
+  }
+}

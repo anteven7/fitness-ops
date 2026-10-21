@@ -1,0 +1,10 @@
+{
+  "id": "replace-with-nutrition-log-id",
+  "date": "YYYY-MM-DD",
+  "complete_day": false,
+  "kcal": null,
+  "protein_g": null,
+  "carbs_g": null,
+  "fat_g": null,
+  "notes": "Meal or day observations; no invented totals"
+}

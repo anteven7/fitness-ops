@@ -1,0 +1,10 @@
+{
+  "id": "replace-with-recovery-log-id",
+  "date": "YYYY-MM-DD",
+  "sleep_hours": null,
+  "energy": null,
+  "soreness": null,
+  "stress": null,
+  "pain": null,
+  "notes": "Scales: energy 1\u20135 (higher is better); soreness/stress/pain 0\u201310 (higher is worse)"
+}

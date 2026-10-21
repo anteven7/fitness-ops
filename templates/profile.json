@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "name": null,
+  "language": "en",
+  "timezone": "UTC",
+  "display_units": "metric",
+  "age": null,
+  "height_cm": null,
+  "weight_kg": null,
+  "energy_equation": null,
+  "goal": {
+    "primary": null,
+    "reason": null,
+    "deadline": null,
+    "metrics": []
+  },
+  "training": {
+    "experience": null,
+    "days_per_week": null,
+    "minutes_per_session": null,
+    "equipment": null,
+    "current_routine": null,
+    "preferences": []
+  },
+  "nutrition": {
+    "approach": "habits",
+    "pattern": null,
+    "allergies": null,
+    "exclusions": null,
+    "likes": [],
+    "dislikes": [],
+    "budget": null,
+    "cooking": null
+  },
+  "recovery": {
+    "sleep_hours": null,
+    "stress": null,
+    "other_activity": null
+  },
+  "safety": {
+    "screened_on": null,
+    "current_symptoms": null,
+    "restrictions": null,
+    "needs_professional_guidance": null,
+    "energy_restriction_appropriate": null,
+    "notes": null
+  },
+  "provenance": {}
+}

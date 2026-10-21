@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "replace-with-review-id",
+  "plan_id": "replace-with-plan-id",
+  "date": "YYYY-MM-DD",
+  "window_start": "YYYY-MM-DD",
+  "next_review_date": "YYYY-MM-DD",
+  "decision": "continue",
+  "confidence": "low",
+  "observations": [],
+  "changes": [],
+  "body_md": "Record data coverage, goal results, uncertainties, decision rationale, exact changes, and reversal criteria."
+}

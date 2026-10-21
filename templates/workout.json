@@ -1,0 +1,22 @@
+{
+  "id": "replace-with-session-log-id",
+  "date": "YYYY-MM-DD",
+  "status": "completed",
+  "plan_id": null,
+  "session_key": null,
+  "duration_min": null,
+  "exercises": [
+    {
+      "name": "Exercise name",
+      "sets": [
+        {
+          "reps": 8,
+          "load_kg": null,
+          "rir": null
+        }
+      ],
+      "notes": "Record equipment and load conventions"
+    }
+  ],
+  "notes": ""
+}

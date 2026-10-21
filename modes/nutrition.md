@@ -1,0 +1,13 @@
+# Nutrition, meals, and groceries
+
+Read the profile, current training workload, nutrition targets, and relevant evidence. Confirm allergies and dietary exclusions before selecting ingredients. Missing allergy information is a reason to ask, not to assume no allergies. Respect budget, cuisine, cooking facilities, meal times, digestion, and social eating.
+
+Choose targets or habits according to the user's preferences and appropriateness. If using numbers, explain the maintenance estimate method and uncertainty, calorie objective, protein/fat/carbohydrate rationale, and how you will validate it over time. `estimate` calculates resting energy only, never maintenance or an intake recommendation. Do not add watch-reported exercise calories twice or treat a wearable as exact.
+
+Produce a practical seven-day menu or the requested span. For every meal give ingredients, portions, and whether weights are raw/cooked or drained. Use a real food label or authoritative food composition source for quantitative nutrient claims; record the precise food entry/label and mark estimates. Put quantities and source values in `coaching.nutrition.menu_days`; use `menu FILE` or `plan audit ID` to calculate totals. Explain the portions-to-nutrients formula in `docs/FORMULAS.md`. Reconcile daily totals with targets; flag unavoidable label/fibre rounding rather than pretending exactness. An unquantified menu is acceptable on the habits path, but do not claim it meets precise macros. Check actual ingredients and package allergen labels: the calculator cannot do that.
+
+Include protein and produce options across the week, carbohydrate around demanding sessions when useful, varied fat sources, fibre progression and hydration adapted to conditions. Consider food sources for calcium, iron, B12, vitamin D, and iodine when the dietary pattern creates a plausible gap. Do not diagnose deficiencies or add blanket supplement stacks; seek appropriate professional advice for clinical concerns.
+
+Include at least two useful swaps, a batch-cooking plan, storage/reheating guidance verified when needed, a consolidated grocery list (quantities/units), and a meal-out fallback. Substitutions must preserve allergies and approximate the function/portion of the original food. If prices were not checked, describe budget categories instead of inventing local costs.
+
+Save meaningful target/menu changes as a new plan version, retain the existing training schedule, and give the next review date. Diet periods should support the current goal, recovery, and adherence; carb cycling, fasting, bulking/cutting, and supplements are optional, never mandatory defaults.

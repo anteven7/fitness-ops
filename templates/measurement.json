@@ -1,0 +1,7 @@
+{
+  "id": "replace-with-measurement-id",
+  "date": "YYYY-MM-DD",
+  "weight_kg": null,
+  "waist_cm": null,
+  "notes": "Only fill measurements the user chooses to report"
+}
