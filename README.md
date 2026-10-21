@@ -2,7 +2,7 @@
 
 Your training and nutrition assistant, with memory and a review loop.
 
-Inspired by career-ops: talk to your assistant, build a persistent profile, run a focused mode, save the result, and use real outcomes to improve the next decision. The assistant provides the coaching; the small local toolkit validates records, preserves plan history, and computes progress summaries. No API key or package install is needed for the toolkit. An AI assistant supplies conversation and planning.
+Talk to your assistant, build a persistent profile, run a focused mode, save the result, and use real outcomes to improve the next decision. The assistant provides the coaching; the small local toolkit validates records, preserves plan history, and computes progress summaries. No API key or package install is needed for the toolkit. An AI assistant supplies conversation and planning.
 
 ## Start here
 
